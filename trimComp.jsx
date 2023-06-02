@@ -24,6 +24,10 @@
         var layer = _trim.get('layer');
         var handle = _trim.get('handle');
 
+        // var comp = 'rendercomp';
+        // var layer = 'target';
+        // var handle = 0.5;
+
         // access the render comp and layer
         var renderComp = compByName(comp);
         var referenceLayer = layerByName(renderComp, layer);
