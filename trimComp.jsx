@@ -29,7 +29,7 @@
         var referenceLayer = layerByName(renderComp, layer);
 
         // calculate the desired outpoint
-        var newOutpoint = referenceLayer.outPoint + handle;
+        var newOutpoint = referenceLayer.startTime + referenceLayer.source.duration + handle;
 
         // apply to the comp
         renderComp.workAreaDuration = newOutpoint - renderComp.workAreaStart;
