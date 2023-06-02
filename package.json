@@ -1,0 +1,11 @@
+{
+  "name": "nexrender-trim-comp",
+  "version": "1.0.0",
+  "description": "This plugin trims the work area of a comp to the duration of a layer, plus an optional, configurable handle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Smith",
+  "license": "MIT"
+}
